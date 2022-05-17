@@ -7,12 +7,16 @@ import './App.css';
 // import ThankyouDialog from './0516/components/3-6. Composition2/ThankyouDialog';
 // import Button from './0516/components/3-7. HOC/Button';
 // import Input from './0516/components/3-7. HOC/Input';
-import Memo from './0517/3-8. Memoization/Memo';
+// import Memo from './0517/3-8. Memoization/Memo';
+// import Example from './0517/3-10. Context/Example';
+// import Example from './0517/3-11. Portal/Example';
+// import Component from './0517/3-14. PropTypes/Component';
+import MomentExample from './0517/Moment/MomentExample';
 
 function App() {
   return (
     <div className="App">
-      <Memo />
+      <MomentExample />
     </div>
   );
 }

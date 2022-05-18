@@ -52,12 +52,17 @@ export default function MomentExample() {
       <div>{moment("07-17-2021").format("YYYY년 M월 D일")}</div>
       <br/>
 
-      <div>두 날짜가 비교</div>
+      <div>자기 생일 요일 찾기</div>
       <div>
         <input type="date" ref={birthDayRef} onChange={handleBirthDayChange}/>
         <div>무슨 요일이었을까?</div>
         <div>{day}</div>
       </div>
+      <br />
+
+      <div>두 날짜 비교</div>
+      <div>2021-07-17 03:00와 2021-07-18 02:00는 몇 시간 차이인가?</div>
+      <div>{`${moment("2021-07-17 03:00").diff(moment("2021-07-18 02:00"), "hours")}시간`}</div>
     </div>
   )
 }

@@ -17,12 +17,13 @@ import './App.css';
 // import DayjsExample from './0518/Dayjs/DayjsExample';
 // import DateFnsExample from './0518/Datefns/DateFnsExample';
 // import StyledComponentsExample from './0518/StyledComponentExample/StyledComponentsExample';
-import EmotionExample from './0518/EmotionExample/EmotionExample';
+// import EmotionExample from './0518/EmotionExample/EmotionExample';
+import Example from './0518/SassExample/Example';
 
 function App() {
   return (
     <div className="App">
-      <EmotionExample />
+      <Example />
     </div>
   );
 }
